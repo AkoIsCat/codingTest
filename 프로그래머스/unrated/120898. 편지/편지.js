@@ -1,4 +1,3 @@
 function solution(message) {
-    var answer = 0;
-    return message.split('').length * 2;
+    return message.length * 2;
 }
