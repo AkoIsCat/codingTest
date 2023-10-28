@@ -1,3 +1,3 @@
 function solution(s) {
-    return [...s].sort((a, b) => b.charCodeAt() - a.charCodeAt()).join('');
+    return [...s].sort().reverse().join('');
 }
